@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  margin-right: auto;
+}
+
+.search-bar {
+  width: 200px;
+  /*flex: 1;*/
+  margin: 0 auto;
+}
+
+.cart-icon {
+  margin-left: auto;
+}
