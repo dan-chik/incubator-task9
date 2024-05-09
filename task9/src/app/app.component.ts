@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'task9';
   onSearch(searchTerm: string) {
-    // Implement your search logic here
     console.log('Search term:', searchTerm);
   }
 }
