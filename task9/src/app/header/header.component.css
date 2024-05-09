@@ -1,17 +1,30 @@
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  text-align: center;
 }
 
-.home-link {
+.home {
   margin-right: auto;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
 }
 
 .search-bar {
   width: 200px;
-  /*flex: 1;*/
   margin: 0 auto;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .cart-icon {
