@@ -12,12 +12,12 @@ export class MethodsService {
 
   constructor(private http: HttpClient) { }
 
-  getAllProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.baseUrl);
+  getAllProducts(): Observable<Product> {
+    return this.http.get<Product>(this.baseUrl);
   }
 
-  getProduct(productId: number): Observable<any> {
-    return this.http.get<any>(`${this.baseUrl}/${productId}`);
+  getProduct(productId: number): Observable<Product> {
+    return this.http.get<Product>(`${this.baseUrl}/${productId}`);
   }
 
   getProductDetails(productId: number): Observable<any> {

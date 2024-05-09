@@ -215,49 +215,49 @@ export const products = [
       "name": "Classic Chocolate Chip Cookies",
       "time": 30,
       "description": "Traditional chocolate chip cookies made with butter, sugar, flour, and chocolate chips.",
-      "image": "/assets/pics/chocolatechipcookies.jpg",
+      "image": "/assets/pics/21.jpg",
       "rating": 4.8,
       "likes": 200,
-      "category": "bake"
+      "category": "Bake"
     },
     {
       "id": 22,
       "name": "Homemade Banana Bread",
       "time": 60,
       "description": "Moist and flavorful banana bread made with ripe bananas, flour, sugar, and eggs.",
-      "image": "/assets/pics/bananabread.jpg",
+      "image": "/assets/pics/22.jpg",
       "rating": 4.9,
       "likes": 220,
-      "category": "bake"
+      "category": "Bake"
     },
     {
       "id": 23,
       "name": "Blueberry Muffins",
       "time": 40,
       "description": "Delicious muffins packed with juicy blueberries and topped with a crumbly streusel topping.",
-      "image": "/assets/pics/blueberrymuffins.jpg",
+      "image": "/assets/pics/23.jpg",
       "rating": 4.7,
       "likes": 180,
-      "category": "bake"
+      "category": "Bake"
     },
     {
       "id": 24,
       "name": "Apple Pie",
       "time": 75,
       "description": "A classic dessert featuring a flaky pie crust filled with sweet, spiced apples.",
-      "image": "/assets/pics/applepie.jpg",
+      "image": "/assets/pics/24.jpg",
       "rating": 4.6,
       "likes": 160,
-      "category": "bake"
+      "category": "Bake"
     },
     {
       "id": 25,
       "name": "Red Velvet Cupcakes",
       "time": 45,
       "description": "Decadent cupcakes with a rich red color, topped with cream cheese frosting.",
-      "image": "/assets/pics/redvelvetcupcakes.jpg",
+      "image": "/assets/pics/25.jpg",
       "rating": 4.8,
       "likes": 190,
-      "category": "bake"
+      "category": "Bake"
     }
 ]

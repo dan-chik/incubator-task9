@@ -6,17 +6,14 @@ import {Product} from "./products";
 })
 export class FilterPipe implements PipeTransform {
 
-  transform(items: any[], searchText: string): any[] {
-    if (!items) {
-      return [];
-    }
-    if (!searchText) {
-      return items;
-    }
-    searchText = searchText.toLocaleLowerCase();
+  transform(value: any, args?: any): any {
+    if(!value) return null;
+    if(!args) return value;
 
-    return items.filter(it => {
-      return it.toLowerCase().includes(searchText);
+    args=args.toLowerCase();
+    debugger;
+    return value.filter(function(category: any){
+      return JSON.stringify(category).toLowerCase().includes(args);
     });
   }
 

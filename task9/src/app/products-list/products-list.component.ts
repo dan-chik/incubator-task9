@@ -15,12 +15,6 @@ export class ProductsListComponent {
   selectedCategoryProduct: Product | undefined;
   filteredProducts: Product[] = [];
 
-  constructor(private productService: MethodsService) { }
-
-  // ngOnInit(): void {
-  //   this.showAllProducts();
-  // }
-
   share(product: Product) {
     window.alert("It is shared!")
     const telegramMessage = `Check out this product: ${product.name} - ${product.description} - ${product.rating} Stars`;
@@ -60,7 +54,4 @@ export class ProductsListComponent {
       : this.products;
   }
 
-  showAllProducts(): void {
-    this.productService.getAllProducts().subscribe(products => this.products = products);
-  }
 }

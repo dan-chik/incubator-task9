@@ -17,8 +17,8 @@
 
 /* Style product image above text */
 .product img {
-  max-width: 100px;
-  max-height: 100px;
+  width: 200px;
+  height: 150px;
   border-radius: 8px; /* Add a border-radius for rounded corners */
   margin-bottom: 10px; /* Space between image and text */
 }
